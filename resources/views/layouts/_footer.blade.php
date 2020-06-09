@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-8">
         <div class="row">
-          <a href="#">关于我们</a>&nbsp;|&nbsp;
+          <a href="{{ route('about') }}">关于我们</a>&nbsp;|&nbsp;
           <a onclick="#">会员服务</a>&nbsp;|&nbsp;
           <a href="#">法律声明</a>&nbsp;|&nbsp;
           <a href="#">联系我们</a>
