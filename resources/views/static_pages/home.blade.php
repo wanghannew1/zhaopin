@@ -3,7 +3,7 @@
 <div class="row">
 <div class="offset-md-2 col-md-8">
   <section class="user_info">
-    占位
+    home页占位
   </section>
   <section class="status">
     @if (0)

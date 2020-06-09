@@ -22,3 +22,7 @@ Route::get('/', 'StaticPagesController@home')->name('home');
 Route::get('help', 'StaticPagesController@help')->name('help');
 Route::get('about', 'StaticPagesController@about')->name('about');
 
+// 登录入口地址
+Route::get('login', 'UsersController@login')->name('login');
+// 注册入口地址
+Route::get('signup', 'UsersController@signup')->name('signup');
